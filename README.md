@@ -270,7 +270,7 @@ php format-discovery/list-formats.php --check=heic:jpg
 ## 🤝 Support
 
 - **API Documentation**: [https://converthub.com/api/docs](https://converthub.com/api/docs)
-- **Developer Dashboard**: [https://converthub.com/dashboard](https://converthub.com/dashboard)
+- **Developer Dashboard**: [https://converthub.com/developers](https://converthub.com/developers)
 - **Get API Key**: [https://converthub.com/api](https://converthub.com/api)
 - **Email Support**: support@converthub.com
 
