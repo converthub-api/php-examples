@@ -1,0 +1,41 @@
+{
+    "name": "converthub/php-examples",
+    "description": "PHP examples for ConvertHub API - File conversion service",
+    "keywords": ["converthub", "api", "file conversion", "pdf", "image", "document"],
+    "homepage": "https://converthub.com/api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ConvertHub",
+            "email": "support@converthub.com",
+            "homepage": "https://converthub.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.0",
+        "vlucas/phpdotenv": "^5.0"
+    },
+    "suggest": {
+        "guzzlehttp/guzzle": "For more advanced HTTP client features",
+        "vlucas/phpdotenv": "For better environment variable management",
+        "monolog/monolog": "For advanced logging in webhook handlers"
+    },
+    "autoload": {
+        "psr-4": {
+            "ConvertHub\\Examples\\": "src/"
+        }
+    },
+    "scripts": {
+        "test-api": "php simple-convert/convert.php test.pdf docx",
+        "list-formats": "php format-discovery/list-formats.php"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
