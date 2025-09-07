@@ -278,6 +278,16 @@ php format-discovery/list-formats.php --check=heic:jpg
 
 These examples are provided under the MIT License. Feel free to use and modify them for your projects.
 
+## 🙏 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
+
 ---
 
 Built with ❤️ by [ConvertHub](https://converthub.com) - Making file conversion simple and powerful.
